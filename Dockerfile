@@ -1,5 +1,5 @@
 FROM ubuntu
-EXPOSE 4403 8000 8080 9876 22 9010 5000 9090
+EXPOSE 4403 8000 8080 9876 22 
 RUN apt-get update && \
     apt-get -y install sudo openssh-server procps wget unzip mc curl subversion software-properties-common python-software-properties && \
     mkdir /var/run/sshd && \
